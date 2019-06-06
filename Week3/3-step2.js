@@ -4,17 +4,9 @@
 // 2.3.1 ----- WITH A  FOR LOOP ------
 function repeatStringNumTimesWithFor(str, num) {
   let x = '';
-  if (num < 0) {
-    return x;
-  } else {
-    for (let i = 0; i < num; i++) {
-      x += str;
-    }
-  }
-  str = x;
-  return str;
-}
-
+  for (let i = 1; i <= num; i++) result += str;
+} 
+  
 console.log('abc', 3);
 
 // 2.3.2 ------ USE A 'WHILE' LOOP -------
