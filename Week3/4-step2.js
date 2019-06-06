@@ -4,11 +4,6 @@
 // Object Oriented Programming: Use a Constructor to Create Objects
 
 // paste your freeCodeCamp solutions in here
-function Dog() {
-  this.name = 'Bingo';
-  this.color = 'black';
-  this.numLegs = 4;
-}
 
 function Dog() {
   this.name = 'Rupert';
