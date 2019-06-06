@@ -17,4 +17,7 @@ function f2(val) {
 f2(y);
 
 console.log(y);
-// the f1 call that variable x which 9 & f2 retrieve f1 and add 1 to it to make it 10.
+/* f1 and f2 not call each other, the only difference is that f1 handles a simple
+variable, but because its a const the value does not change. While f2 changes the 
+property on an object, which is changeable even if the object is a const */
+
